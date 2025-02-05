@@ -1,1 +1,40 @@
+# General ignores
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
+*.DS_Store
+.env
+.vscode/
+.idea/
+
+# Virtual environment (Django)
+code/backend/venv/
+code/backend/env/
+
+# Django-specific
+code/backend/db.sqlite3
+code/backend/media/
+code/backend/staticfiles/
+*.pem
+
+# Node.js dependencies (React)
+code/frontend/node_modules/
+code/frontend/package-lock.json
+code/frontend/yarn.lock
+
+# React build files
+code/frontend/build/
+code/frontend/dist/
+
+# Environment files
+code/frontend/.env
+code/frontend/.env.local
+code/frontend/.env.development.local
+code/frontend/.env.production.local
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
 

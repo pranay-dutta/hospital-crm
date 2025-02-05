@@ -1,0 +1,8 @@
+django>=3.2
+djangorestframework
+django-cors-headers
+python-dotenv
+mysqlclient
+pymysql
+mysql-connector-python
+-e .
